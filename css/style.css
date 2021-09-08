@@ -1,0 +1,90 @@
+/* GENERAL FORMATTING */
+a, h1, h2 { font-family: 'Archivo Black', sans-serif; }
+
+p { font-family: 'Open Sans', sans-serif; }
+
+/* HEADER */
+header nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .nav-link {
+    color: #fff;
+}
+
+header .nav-link:hover {
+    color: rgb(0, 207, 214);
+}
+
+
+.divLi {
+    width: 1px;
+    background-color: #fff;
+}
+
+/* LAYOUT */
+html, body, #firstSection{
+    height: 100%;
+}
+
+body {
+    background: url('../images/capa.png'),
+                url('../images/ruido.png'),
+                linear-gradient(50deg, #ff4169,#7c26f8);
+    background-attachment: fixed;
+}
+
+/* FIRST SECTION */
+#firstSection h1 {
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.btnCustom {
+    border-radius: 500px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btnPurple {background-color: rgb(111, 0, 255);}
+.btnPurple:hover {
+    background-color: rgb(61, 0, 141);
+    color: #fff
+}
+
+.btnWhite {border: 3px solid #fff;}
+.btnWhite:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* SECOND SECTION */
+#secondSection {
+    background-color: #fff;
+}
+#secondSection h2 {color: rgb(122, 20, 255);}
+
+/* THIRD SECTION */
+.thirdSectionContent p, .thirdSectionContent h2:nth-child(1) {
+    color: #fff;
+}
+.thirdSectionContent h2 {color: rgb(139, 255, 240);}
+.rotate {
+    transform: rotate(30deg) translateX(-4%);
+    padding-left: 15%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+footer h5 { color: rgb(77, 77, 77); }
+footer ul { list-style: none; }
